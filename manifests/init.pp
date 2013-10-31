@@ -6,7 +6,7 @@
 #
 class boxcryptor {
   package { 'Boxcryptor':
-    provider => 'appdmg',
+    provider => 'pkgdmg',
     source   => 'https://www.boxcryptor.com/download/Boxcryptor_Installer.dmg'
   }
 }
